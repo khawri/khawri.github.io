@@ -1,0 +1,44 @@
+body {
+  max-width: 540px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  color: #e5bda7;
+  background-color: #5e6572;
+}
+
+#brides {
+  background-color: #fff7ee;
+  color: #5e6572;
+}
+
+#brides .btn-primary {
+  background-color: #5e6572;
+}
+
+#event .btn-primary {
+  background-color: #e5bda7;
+  color: #5e6572;
+}
+
+#closing {
+  background-color: #fff7ee;
+  color: #5e6572;
+}
+
+/* custom components */
+.primary-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.secondary-font {
+  font-family: "Libre Baskerville", serif;
+}
+
+hr {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
