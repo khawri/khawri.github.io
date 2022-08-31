@@ -10,8 +10,14 @@ main {
 }
 
 #brides {
-  background-color: #fff7ee;
+  /* background-color: #fff7ee; */
   color: #5e6572;
+  background-image: url("../img/kerawang-gayo.png");
+  background-size: cover;
+}
+
+#brides .container {
+  background-color: #fff7ee;
 }
 
 #brides .btn-primary {
@@ -24,8 +30,12 @@ main {
 }
 
 #closing {
-  background-color: #fff7ee;
   color: #5e6572;
+  background-image: url("../img/kerawang-gayo.png");
+}
+
+#closing .container {
+  background-color: #fff7ee;
 }
 
 /* custom components */
