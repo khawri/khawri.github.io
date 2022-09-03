@@ -9,5 +9,6 @@ function handleAudio() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  AOS.init();
   handleAudio();
 });
