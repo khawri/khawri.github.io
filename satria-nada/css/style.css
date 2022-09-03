@@ -38,6 +38,16 @@ main {
   background-color: #fff7ee;
 }
 
+#audio-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #e5bda7;
+  color: #5e6572;
+  border: none;
+  font-size: 1.2rem;
+}
+
 /* custom components */
 .primary-font {
   font-family: "Montserrat", sans-serif;
