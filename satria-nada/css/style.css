@@ -12,7 +12,7 @@ main {
 #brides {
   color: #5e6572;
   background-image: url("../img/kerawang-gayo.png");
-  background-size: cover;
+  background-size: 540;
 }
 
 #brides .container {
@@ -31,7 +31,7 @@ main {
 #closing {
   color: #5e6572;
   background-image: url("../img/kerawang-gayo.png");
-  background-size: cover;
+  background-size: 540;
 }
 
 #closing .container {
