@@ -52,18 +52,28 @@ main {
   color: #5e6572;
 }
 
-.modal-content {
+#modal-opening .modal-content {
   background-color: #5e6572;
 }
 
-.modal-body .container {
+#modal-opening .modal-body .container {
   background-color: #fff7ee;
 }
 
-.modal-body button {
+#modal-opening .modal-body button {
   background-color: #e5bda7;
   color: #5e6572;
   border: none;
+}
+
+#gift button {
+  background-color: #e5bda7;
+  color: #5e6572;
+  border: none;
+}
+
+#modal-gift {
+  color: #5e6572;
 }
 
 /* custom components */
