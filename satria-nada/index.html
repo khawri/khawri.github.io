@@ -331,6 +331,11 @@
     </main>
 
     <div>
+      <iframe
+        src="./audio/lagu-gayo.mp3"
+        allow="autoplay"
+        style="display: none"
+      ></iframe>
       <audio id="audio" src="./audio/lagu-gayo.mp3" autoplay></audio>
       <button id="audio-button" class="btn btn-primary rounded-circle">
         <svg
@@ -350,6 +355,39 @@
           />
         </svg>
       </button>
+    </div>
+
+    <div>
+      <div
+        class="modal fade"
+        id="modal-opening"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-body d-flex align-items-center">
+              <div class="container text-center p-5 rounded-5">
+                <h2 class="mb-4">The Wedding Of</h2>
+                <h3 class="display-2 secondary-font fst-italic mb-4">Satria</h3>
+                <hr />
+                <p class="display-2 mb-4">&</p>
+                <h3 class="display-2 secondary-font fst-italic mb-4">Nada</h3>
+                <hr />
+                <p class="mb-5">Announcement</p>
+                <button
+                  type="button"
+                  class="btn btn-primary modal-close"
+                  data-bs-dismiss="modal"
+                >
+                  Open Invitation
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script

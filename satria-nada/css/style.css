@@ -48,6 +48,24 @@ main {
   font-size: 1.2rem;
 }
 
+#modal-opening {
+  color: #5e6572;
+}
+
+.modal-content {
+  background-color: #5e6572;
+}
+
+.modal-body .container {
+  background-color: #fff7ee;
+}
+
+.modal-body button {
+  background-color: #e5bda7;
+  color: #5e6572;
+  border: none;
+}
+
 /* custom components */
 .primary-font {
   font-family: "Montserrat", sans-serif;
