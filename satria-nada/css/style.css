@@ -5,8 +5,8 @@ body {
 }
 
 main {
-  color: #e5bda7;
-  background-color: #5e6572;
+  color: #5e6572;
+  background-color: #fff7ee;
 }
 
 #brides {
@@ -52,12 +52,9 @@ main {
   color: #5e6572;
 }
 
-#modal-opening .modal-content {
-  background-color: #5e6572;
-}
-
 #modal-opening .modal-body .container {
   background-color: #fff7ee;
+  max-width: 540px;
 }
 
 #modal-opening .modal-body button {
@@ -82,11 +79,23 @@ main {
 }
 
 .secondary-font {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Great Vibes", cursive;
 }
 
 hr {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.rotate-270 {
+  transform: rotate(270deg);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
 }
